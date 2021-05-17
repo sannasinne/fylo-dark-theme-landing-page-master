@@ -1,0 +1,10 @@
+
+body {
+  background-color: #1B2330;
+  color: white;
+}
+
+/* Attribution */
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
