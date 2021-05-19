@@ -1,8 +1,223 @@
+/* Basic styles */
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
 
 body {
   background-color: #1B2330;
   color: white;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
 }
+
+h1, h2, h3 {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 2.2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.4rem;
+  text-align: center;
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+/* Button syles */
+
+button {
+  background: rgb(99,225,217);
+  background: linear-gradient(90deg, rgba(99,225,217,1) 0%, rgba(52,160,205,1) 100%); 
+  display: block;
+  margin: auto;
+  color: white;
+  border: 1px solid #707070;
+  padding: 1.8rem;
+  width: 24rem;
+  border-radius: 3rem;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.4rem;
+  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.15);
+  transition: all .5s ease-in-out;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #8ADAE3;
+  border: 1px solid #979797;
+}
+
+/* Header styles */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2.43rem 2.5rem 4.81rem 2rem;
+}
+
+nav ul {
+  display: flex;
+  font-size: 1.2rem;
+}
+
+nav ul li {
+  padding-left: 2.4rem;
+}
+
+.logo {
+  width: 8rem;
+}
+
+/* Banner styles */
+
+.banner img {
+  width: 80vw;
+  margin-bottom: 3.3rem;
+}
+
+.banner h1 {
+  width: 90vw;
+}
+
+.banner p {
+  width: 84vw;
+  margin-bottom: 3.4rem;
+}
+
+.banner button {
+  margin-bottom: 12rem;
+}
+
+/* Info section styles */
+
+.card {
+  width: 90vw;
+  margin: auto;
+  margin-bottom: 8.2rem;
+}
+
+.card img {
+  margin-bottom: 2.6rem;
+  width: 20vw;
+}
+
+.card h2 {
+  margin-bottom: 1rem;
+}
+
+.info {
+  margin-bottom: 16.2rem;
+}
+
+/* Productive section */
+
+.productive {
+  width: 89vw;
+  margin: auto;
+  margin-bottom: 16.5rem;
+}
+
+.img-productive {
+  width: 80vw;
+  margin-bottom: 5rem;
+}
+
+.stay-productive h2 {
+  margin-bottom: 1.7rem;
+}
+
+.stay-productive p {
+  text-align: left;
+  margin-bottom: 1.8rem;
+}
+
+.stay-productive a {
+  color: #62E0D9;
+  border-bottom: 1px solid #62E0D9;
+  padding-bottom: .6rem;
+  font-size: 1.2rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.stay-productive a:hover {
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+/* Testimonials section */
+
+.testimonials {
+  margin: auto;
+  width: 78vw;
+  margin-bottom: 16rem;
+}
+
+.testimonial {
+  background-color: #202A3C;
+  padding: 2.4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 2.4rem;
+  border-radius: 1rem;
+}
+
+.testimonial p {
+  text-align: left;
+  font-size: 1rem;
+  line-height: 1.8rem;
+}
+
+.person {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.person img {
+  width: 2.4rem;
+}
+
 
 /* Attribution */
 
