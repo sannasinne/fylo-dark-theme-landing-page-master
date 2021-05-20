@@ -12,38 +12,30 @@ html {
 body {
   background-color: #1B2330;
   color: white;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.4rem;
+  text-align: center;
   margin: 0;
   padding: 0;
 }
 
 h1, h2, h3 {
   font-family: 'Raleway', sans-serif;
+  font-weight: bold;
   text-align: center;
-  margin: auto;
+
 }
 
 h1 {
   font-size: 2.4rem;
-  font-weight: 700;
-  margin-bottom: 2.2rem;
 }
 
 h2 {
   font-size: 1.8rem;
-  font-weight: 700;
 }
 
-h3 {
+h4 {
   font-size: 1rem;
-  font-weight: 700;
-}
-
-p {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.4rem;
-  text-align: center;
-  margin: auto;
 }
 
 ul {
@@ -53,13 +45,21 @@ ul {
 }
 
 a {
+  font-family: 'Raleway', sans-serif;
   text-decoration: none;
   color: white;
 }
 
+
 img {
-  display: block;
-  margin: auto;
+  max-width: 100%;
+}
+
+.container {
+  padding: 20px;
+  margin: 0 auto; /* Center everything */
+  max-width: 100%;
+  
 }
 
 /* Button syles */
@@ -89,6 +89,55 @@ button:hover {
 
 /* Header styles */
 
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2.5rem 0;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 2.4rem;
+}
+
+nav ul a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+
+/* Desktop screen sizes */
+
+@media screen and (min-width: 990px) {
+  .container {
+    width: 1200px;
+  }
+
+  .flex {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .flex > div {
+    flex: 1;
+  }
+
+  nav {
+    margin: 7.4rem 0;
+  }
+
+  nav ul li {
+    margin-left: 5.7rem;
+  }
+}
+
+
+/*
 header {
   display: flex;
   justify-content: space-between;
@@ -110,7 +159,7 @@ nav ul li {
 }
 
 /* Banner styles */
-
+/*
 .banner img {
   width: 80vw;
   margin-bottom: 3.3rem;
@@ -128,9 +177,9 @@ nav ul li {
 .banner button {
   margin-bottom: 12rem;
 }
-
+*/
 /* Info section styles */
-
+/*
 .card {
   width: 90vw;
   margin: auto;
@@ -151,7 +200,7 @@ nav ul li {
 }
 
 /* Productive section */
-
+/*
 .productive {
   width: 89vw;
   margin: auto;
@@ -186,7 +235,7 @@ nav ul li {
 }
 
 /* Testimonials section */
-
+/*
 .testimonials {
   margin: auto;
   width: 78vw;
@@ -217,3 +266,4 @@ nav ul li {
 .person img {
   width: 2.4rem;
 }
+*/
