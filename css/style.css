@@ -109,6 +109,19 @@ nav ul a:hover {
   font-weight: bold;
 }
 
+/* Form section */
+
+form {
+
+}
+
+input {
+  border: 1px solid #707070;
+  padding: 2rem 10rem 2rem 3rem;
+  border-radius: 3rem;
+  color: #C0C0C0;
+}
+
 
 /* Desktop screen sizes */
 
