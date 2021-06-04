@@ -28,6 +28,7 @@ h1, h2, h3 {
 
 h1 {
   font-size: 2.4rem;
+  line-height: 3.6rem;
 }
 
 h2 {
@@ -36,6 +37,10 @@ h2 {
 
 h4 {
   font-size: 1rem;
+}
+
+p {
+  line-height: 2.1rem;
 }
 
 ul {
@@ -62,27 +67,254 @@ img {
   
 }
 
-/* Button syles */
+/* Button styles */
 
 button {
-  background: rgb(99,225,217);
-  background: linear-gradient(90deg, rgba(99,225,217,1) 0%, rgba(52,160,205,1) 100%); 
+  background: #8ADAE3 linear-gradient(90deg, rgba(99,225,217,1) 0%, rgba(52,160,205,1) 100%); 
   display: block;
   margin: auto;
   color: white;
-  border: 1px solid #707070;
   padding: 1.8rem;
   width: 24rem;
+  border: none;
   border-radius: 3rem;
   font-weight: 700;
   font-family: 'Raleway', sans-serif;
   font-size: 1.4rem;
   box-shadow: 0 5px 16px rgba(0, 0, 0, 0.15);
-  transition: all .5s ease-in-out;
+  transition: all .4s ease-in-out;
   cursor: pointer;
 }
 
 button:hover {
   background: #8ADAE3;
-  border: 1px solid #979797;
+}
+
+/* Header syles */
+
+header {
+  margin-bottom: .8rem;
+}
+
+header .container nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .container nav img {
+  width: 8rem;
+}
+
+header .container nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .container nav ul li {
+  margin-left: 2.5rem;
+}
+
+header .container nav ul li:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* Banner section */
+
+.banner {
+  margin-bottom: 8rem;
+}
+
+.banner img {
+  margin-bottom: 3.7rem;
+}
+
+.banner p {
+  margin-bottom: 3.3rem;
+}
+
+/* Info section */
+
+.info {
+  margin-bottom: 4rem;
+}
+
+.card {
+  margin-bottom: 8rem;
+}
+
+.card img {
+  margin-bottom: 2.6rem;
+}
+
+.card h2 {
+  margin-bottom: 1rem;
+}
+
+/* Productive section */
+
+.productive {
+  text-align: left;
+  margin-bottom: 8.9rem;
+}
+.productive h2 {
+  text-align: left;
+}
+
+.productive .image {
+  margin-bottom: 5rem;
+}
+
+.fylo-link {
+  color: #62E0D9;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #62E0D9;
+}
+
+.fylo-link:hover {
+  color: white;
+  border-bottom: 1px solid white;
+  filter:  brightness(0) invert(1);
+}
+
+/* Testimonials section */
+
+.testimonials {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.testimonial {
+  text-align: left;
+  background-color: #202A3C;
+  border-radius: .5rem;
+  padding: 2.6rem 2rem 2.1rem;
+  margin-bottom: 2.4rem;
+}
+
+.quotes {
+  display: block;
+  width: 3rem;
+  padding-left: .5rem;
+}
+
+.testimonial p {
+  font-size: 1rem;
+  margin-bottom: 1.7rem;
+}
+
+.person {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.person img {
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+  margin-right: .8rem;
+}
+
+.person h4 {
+  margin: 0;
+}
+
+small {
+  font-size: .7rem;
+}
+
+/* Early access section */
+
+.early-access {
+  margin-bottom: 4rem;
+}
+
+.early-access .container {
+  background-color: #202A3C;
+  width: 90vw;
+  border-radius: .5rem;
+  padding: 4.2rem 2.8rem 3.7rem;
+}
+
+.early-access p {
+  margin-bottom: 3.3rem;
+}
+
+form input {
+  color: #C0C0C0;
+  font-size: 1rem;
+  padding: 1.6rem 3rem;
+  border: none;
+  border-radius: 3rem;
+  width: 24rem;
+  margin-bottom: 2.4rem;
+}
+
+/* Footer */
+
+footer {
+  text-align: left;
+  margin-bottom: 5.2rem;
+}
+
+footer .logo {
+  width: 10.8rem;
+  margin-bottom: 3.6rem;
+}
+
+.contact {
+  margin-bottom: 1.7rem;
+}
+
+.contact p {
+  margin: 0;
+  padding: 0;
+}
+
+.contact img {
+  margin-right: 1.6rem;
+}
+
+footer .contact {
+  display: flex;
+  align-items: flex-start;
+}
+
+.footer-links {
+  margin-top: 5rem;
+  
+}
+
+.footer-links li {
+  margin-bottom: 1.6rem;
+  font-size: 1.6rem;
+}
+
+.footer-links li:hover {
+  font-weight: bold;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.social-media-icons li a {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.7rem;
+  height: 2.7rem;
+  transition: all .4s ease-in-out;
+}
+
+.social-media-icons li a:hover {
+  color: #62E0D9;
+  border: 1px solid #62E0D9;
 }

@@ -7,6 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -81,7 +82,7 @@
               storage needs.</p>
             <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email 
               attachments required.</p>
-            <a href="#">
+            <a href="#" class="fylo-link">
               See how Fylo works
               <img src="images/icon-arrow.svg" alt="arrow">
             </a>
@@ -93,6 +94,7 @@
 
     <section class="testimonials">
       <div class="container">
+        <img src="./images/bg-quotes.png" alt="Quotes" class="quotes">
         <div class="flex">
           <div class="testimonial">
             <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
@@ -161,34 +163,39 @@
 
   <footer>
     <div class="container">
-      <img src="images/logo.svg" alt="Fylo logo">
+      <img src="images/logo.svg" class="logo" alt="Fylo logo">
     <div class="footer-info">
-      <div class="location">
+      <div class="contact location">
+        <img src="./images/icon-location.svg" alt="Location icon">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
           dolore magna aliqua</p>
       </div>
-      <div class="phone-email">
-        <div class="phone">
-          <p>+1-543-123-4567</p>
-        </div>
-        <div class="email">
-          <p>example@fylo.com</p>
-        </div>
+      <div class="contact phone">
+        <img src="./images/icon-phone.svg" alt="Phone icon">
+        <p>+1-543-123-4567</p>
       </div>
-        <ul class="footer-links-1">
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Jobs</a></li>
-          <li><a href="#">Press</a></li>
-          <li><a href="#">Blog</a></li>
-        </ul>
-        <ul class="footer-links-2">
-          <li><a href="#">Contact Us</a></li>
-          <li><a href="#">Terms</a></li>
-          <li><a href="#">Privacy</a></li>          
-        </ul>
-      <div class="social-media-icons">
+      <div class=" contact email">
+        <img src="./images/icon-email.svg" alt="Email icon">
+        <p>example@fylo.com</p>
+      </div>
+      
+      <ul class="footer-links">
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Jobs</a></li>
+        <li><a href="#">Press</a></li>
+        <li><a href="#">Blog</a></li>
+      </ul>
+      <ul class="footer-links">
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Privacy</a></li>          
+      </ul>
 
-      </div>
+      <ul class="social-media-icons">
+        <li> <a href="#"> <i class="fab fa-facebook"></i> </a> </li>
+        <li> <a href="#"> <i class="fab fa-twitter"></i> </a> </li>
+        <li> <a href="#"> <i class="fab fa-instagram"></i> </a> </li>
+      </ul>
     </div>
     </div>
   </footer>
